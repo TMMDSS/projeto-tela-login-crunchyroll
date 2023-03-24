@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+
+}
+
+:root {
+    --cor-0: #000;
+    --cor-1: #141519;
+    --cor-2: #f47521;
+    --cor-3: rgb(88, 87, 87);
+    
+}
+
+#hime {
+    position: absolute;
+    top: 148px;
+    left: 282px;
+}
+
+body {
+    background-color: var(--cor-0);
+    color: white;
+}
+
+#header {
+    background-color: var(--cor-1);
+    width: 100%;
+    height: 60px;
+}
+
+#header img {
+    display: block;
+    padding-top: 15px;
+    margin: auto;
+    width: 10%;
+}
+
+#header img:hover {
+    background-color: white;
+    
+    cursor: pointer;
+}
+
+#main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--cor-0);
+    width: 100%;
+}
+
+#main h1 {
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-size: 34px;
+    font-weight: 400;
+}
+
+#wrapper {
+    background-color: var(--cor-1);
+    height: 230px;
+    width: 500px;
+    padding: 2.5rem 3rem;
+    margin-bottom: 1.25em;
+    position: relative;
+}
+
+form a {
+    color: white;
+    text-decoration: none;
+    font-size: .9em;
+}
+
+#email {
+    background: var(--cor-1);
+    outline: none;
+    border-bottom: 2px solid var(--cor-3);
+    width: 100%;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+#senha {
+    background: var(--cor-1);
+    outline: none;
+    border-bottom: 2px solid var(--cor-3);
+    width: 100%;
+    font-size: 16px;
+}
+
+
+
+
+#botao {
+    background: var(--cor-2);
+    color: var(--cor-0);
+    font-weight: bolder;
+    padding: 0px 16px;
+    height: 40px;
+    width: 120px;
+    margin-bottom: 20px;
+}
+
+#botao:hover {
+    cursor: pointer;
+    background-color: #f79f65;
+}
+
+
+
+
