@@ -12,7 +12,7 @@
     --cor-0: #000;
     --cor-1: #141519;
     --cor-2: #f47521;
-    --cor-3: rgb(88, 87, 87);
+    --cor-3: #8a8686;
     
 }
 
@@ -20,6 +20,12 @@
     position: absolute;
     top: 148px;
     left: 282px;
+}
+
+#yuzu {
+    position: absolute;
+    top: 521px;
+    left: 898px;
 }
 
 body {
@@ -55,6 +61,7 @@ body {
 }
 
 #main h1 {
+    color: white;
     margin-top: 60px;
     margin-bottom: 30px;
     font-size: 34px;
@@ -65,15 +72,24 @@ body {
     background-color: var(--cor-1);
     height: 230px;
     width: 500px;
-    padding: 2.5rem 3rem;
+    padding: 70px 50px;
     margin-bottom: 1.25em;
     position: relative;
 }
 
-form a {
-    color: white;
+a {
+    color: var(--cor-2);
     text-decoration: none;
     font-size: .9em;
+    font-weight: 700;
+}
+
+form a {
+    color: white;
+}
+
+p {
+    color: white;
 }
 
 .inputBox {
@@ -87,7 +103,15 @@ form a {
     outline: none;
     border-bottom: 2px solid var(--cor-3);
     width: 100%;
-    margin-bottom: 20px;
+}
+
+.inputBox:first-child{
+    margin-bottom: 40px;
+}
+
+
+.inputUser:focus {
+    border-bottom: 1px solid var(--cor-2);
 }
 
 .labelInput {
@@ -95,15 +119,18 @@ form a {
     top: -10px;
     left: 5px;
     pointer-events: none;
+    font-size: 1.2em;
+    font-weight: 700;
+    line-height: 1.2em;
     transition: .5s;
 }
 
 .inputUser:focus ~ .labelInput,
 .inputUser:valid ~ .labelInput {
     top: -20px;
-    color: #f47521;
+    color: var(--cor-3);
+    font-size: .7em;
 }
-
 
 
 #botao {
