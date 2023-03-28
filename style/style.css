@@ -45,12 +45,6 @@ body {
     width: 10%;
 }
 
-#header img:hover {
-    background-color: white;
-    
-    cursor: pointer;
-}
-
 #main {
     display: flex;
     align-items: center;
