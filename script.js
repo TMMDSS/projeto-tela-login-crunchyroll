@@ -11,3 +11,12 @@
     imagem.src = "imagens/crunchyroll-logo.png";
   }
 }
+
+function sair() {
+    var imagem = document.getElementById("logoLaranja");
+    if (imagem.src.match("imagens/crunchyroll-logo.png")) {
+      imagem.src = "imagens/crunchyroll-logo-branco.png";
+    } else {
+      imagem.src = "imagens/crunchyroll-logo.png";
+    }
+  }
