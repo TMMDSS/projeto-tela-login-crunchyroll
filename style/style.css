@@ -43,6 +43,7 @@ body {
     padding-top: 15px;
     margin: auto;
     width: 10%;
+    cursor:pointer;
 }
 
 #main {
