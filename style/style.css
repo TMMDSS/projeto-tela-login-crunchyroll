@@ -25,7 +25,7 @@
 #yuzu {
     position: absolute;
     top: 315px;
-    left: 500px;
+    left: 460px;
 }
 
 body {
@@ -33,6 +33,9 @@ body {
 }
 
 #header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     background-color: var(--cor-1);
     width: 100%;
     height: 60px;
@@ -40,9 +43,8 @@ body {
 
 #header img {
     display: block;
-    padding-top: 15px;
     margin: auto;
-    width: 10%;
+    width: 130px;
     cursor:pointer;
 }
 
@@ -85,6 +87,11 @@ form a {
 
 p {
     color: white;
+}
+
+a.linkCriarConta:hover {
+    color: white;
+    transition: .5s;
 }
 
 .inputBox {
@@ -136,6 +143,7 @@ p {
     height: 40px;
     width: 120px;
     margin-bottom: 20px;
+    transition: .5s;
 }
 
 #botao:hover {
