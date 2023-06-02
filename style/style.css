@@ -40,9 +40,30 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column;
     background-color: var(--cor-0);
     width: 100%;
+}
+
+#main2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: var(--cor-0);
+    width: 800px;
+    position: relative;
+}
+
+#hime {
+    position: absolute;
+    top: 87px;
+    left: 7px;
+}
+
+#yuzu {
+    position: absolute;
+    top: 450px;
+    left: 600px;
 }
 
 #main h1 {
@@ -59,19 +80,6 @@ body {
     width: 500px;
     padding: 70px 50px;
     margin-bottom: 1.25em;
-    position: relative;
-}
-
-#hime {
-    position: absolute;
-    top: -44px;
-    left: -144px;
-}
-
-#yuzu {
-    position: absolute;
-    top: 315px;
-    left: 460px;
 }
 
 a {
