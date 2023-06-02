@@ -162,31 +162,43 @@ a.linkCriarConta:hover {
 
 #footer {
     width: 100%;
-    height: 175px;
 }
 
 #footerONE {
     display: flex;
     justify-content: space-evenly;
     color: white;
-    height: 75px;
-    
+    margin-bottom: 25px;    
 }
 
 #footerONE ul {
     display: flex;
+    align-items: center;
+    justify-content: center;
     list-style: none;
     gap: 24px;
 }
 
-#footerONE ul > li::after {
+#footerONE ul > li {
+display: flex;
+padding: 12px 12px 0px 0px;
+}
+
+#footerONE ul > li:not(:last-child):after {
     background-color: #4a4e58;
     content: "";
     display: block;
-    height: 12px;
+    margin-left: 12px;
+    height: 24px;
     width: 1px;
 }
 
+#footerTWO {
+    border-top: 1px solid white;
+    width: 75%;
+    margin: auto;
+    padding: 12px;
+}
 
 
 
