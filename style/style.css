@@ -188,6 +188,10 @@ padding: 12px 12px 0px 0px;
     color: var(--cor-3);
 }
 
+#footerONE ul > li > a:hover {
+    color: white;
+}
+
 #footerONE ul > li:not(:last-child):after {
     background-color: var(--cor-3);
     content: "";
