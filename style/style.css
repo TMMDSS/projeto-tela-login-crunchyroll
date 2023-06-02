@@ -51,6 +51,7 @@ body {
     flex-direction: column;
     background-color: var(--cor-0);
     width: 800px;
+    margin-bottom: 128px;
     position: relative;
 }
 
@@ -162,7 +163,6 @@ a.linkCriarConta:hover {
 #footer {
     width: 100%;
     height: 175px;
-    background-color: red;
 }
 
 #footerONE {
