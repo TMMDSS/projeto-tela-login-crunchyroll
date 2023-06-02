@@ -159,6 +159,33 @@ a.linkCriarConta:hover {
     background-color: #f79f65;
 }
 
+#footer {
+    width: 100%;
+    height: 175px;
+    background-color: red;
+}
+
+#footerONE {
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+    height: 75px;
+    
+}
+
+#footerONE ul {
+    display: flex;
+    list-style: none;
+    gap: 24px;
+}
+
+#footerONE ul > li::after {
+    background-color: #4a4e58;
+    content: "";
+    display: block;
+    height: 12px;
+    width: 1px;
+}
 
 
 
