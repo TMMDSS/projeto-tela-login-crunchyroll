@@ -114,6 +114,7 @@ a.linkCriarConta:hover {
     outline: none;
     border-bottom: 2px solid var(--cor-3);
     width: 100%;
+    padding-top: 10px;
 }
 
 .inputBox:first-child{
