@@ -40,15 +40,4 @@
     #footerONE ul > li:not(:last-child):after {
         display: none;
     }
-
-    /* #main2 {
-        width: 100%;
-    }
-    #hime {
-        display: none;
-    }
-
-    #yuzu {
-        display: none;
-    } */
 }
